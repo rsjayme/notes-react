@@ -1,0 +1,55 @@
+.note-container {
+    width: 50%;
+    max-width: 1180px;
+    padding: 0 30px;
+    margin: 32px auto;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: #313131;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin-bottom: 40px;
+}
+
+header span {
+    font-size: 20px;
+}
+
+.note-container ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 24px;
+    list-style: none;
+}
+
+.note-container ul li {
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.title {
+    margin-bottom: 15px;
+}
+
+.delete {
+    position: absolute;
+    right: 18px;
+    top: 18px;
+    border: 0;
+    cursor: pointer;
+}
+
+.edit {
+    position: absolute;
+    right: 48px;
+    top: 18px;
+    border: 0;
+    cursor: pointer;
+}
